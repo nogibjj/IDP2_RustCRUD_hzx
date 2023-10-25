@@ -29,6 +29,8 @@ jobs:
       run: make format
     - name: Lint
       run: make lint
+    - name: Test
+      run: make test
     - name: Archive Binary
       uses: actions/upload-artifact@v2
       with:

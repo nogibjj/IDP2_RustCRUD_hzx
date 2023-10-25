@@ -18,6 +18,7 @@ pub fn extract(url: &str, file_path: &str) -> Result<(), Box<dyn Error>> {
 }
 
 pub fn transform_load(dataset: &str) -> Result<(), Box<dyn Error>> {
+    // let conn = Connection::open_in_memory()?;
     let conn = Connection::open(DATABASE_FILE)?;
     conn.execute("DROP TABLE IF EXISTS GroceryDB", [])?;
     conn.execute(

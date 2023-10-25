@@ -10,10 +10,10 @@ format:
 	cargo fmt --quiet
 
 lint:
-	cargo clippy --quiet
+	cargo clippy --quiet 
 
 test:
-	cargo test --quiet
+	cargo test --quiet -- --test-threads=1
 
 run:
 	cargo run
