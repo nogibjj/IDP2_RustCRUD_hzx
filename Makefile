@@ -21,4 +21,11 @@ run:
 release:
 	cargo build --release
 
+# Install Rust toolchain if needed
+install:
+	# Install if needed
+	# @echo "Updating rust toolchain"
+	# rustup update stable
+	# rustup default stable 
+
 all: format lint test run
