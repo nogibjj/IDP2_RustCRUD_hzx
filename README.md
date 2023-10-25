@@ -1,3 +1,4 @@
+[![Rust CI/CD](https://github.com/nogibjj/IDP2_RustCRUD_hzx/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDP2_RustCRUD_hzx/actions/workflows/cicd.yml)
 # Rust CLI Binary with SQLite
 
 ## Demo Video
