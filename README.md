@@ -2,12 +2,13 @@
 # Rust CLI Binary with SQLite
 
 ## Demo Video
+[Youtube Link](https://youtu.be/w8AJo-IJ3EA)
 
 
 ## Rust Source Code
 ###  Rust features, syntax and error handling
 - **Pattern Matching**: Use match expressions to match command-line arguments and execute different code blocks based on the match result.
-- **References and Borrowing**: When calling the functions such as create_general_item and delete_general_item, I make use of references and borrowing to avoid copying all the arguments onto the stack.
+- **References and Borrowing**: When calling the functions such as `create_general_item` and `delete_general_item`, I make use of references and borrowing to avoid copying all the arguments onto the stack.
 - **Type feature**: In the Rust code, when we see a return type like Result<(), String>, it means that the function can return either a success result (with no value) or a failure result (with an error message in the form of a String). For example,
 ```Rust
 fn some_operation() -> Result<(), String> {
